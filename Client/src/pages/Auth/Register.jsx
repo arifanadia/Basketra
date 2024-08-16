@@ -49,7 +49,7 @@ const Register = () => {
             localStorage.setItem('jwt', data.token);
 
             toast.success("Account created successfully");
-            navigate('/');
+            navigate('/products');
         } catch (err) {
             console.error("Sign-up error:", err);
             toast.error("Sign-up failed. Please try again.");

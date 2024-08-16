@@ -3,6 +3,7 @@ import Login from "./pages/Auth/login"
 import Register from "./pages/Auth/register"
 import Main from "./Layout/Main"
 import Home from "./pages/Home/Home"
+import Products from "./pages/Products/Products"
 
 
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/" element={<Main />}>
           <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
 
         </Route>
 
