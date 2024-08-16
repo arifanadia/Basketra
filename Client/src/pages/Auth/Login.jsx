@@ -9,7 +9,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { Link } from "react-router-dom";
-import basketra from "../../assets/Basketra.png"
+import basketra from "../../assets/logo/Basketra.png"
 
 const Login = () => {
 

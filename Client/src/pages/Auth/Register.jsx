@@ -9,7 +9,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Link, useNavigate } from "react-router-dom";
-import basketra from "../../assets/Basketra.png";
+import basketra from "../../assets/logo/Basketra.png";
 import { useState } from "react";
 import useAuth from "@/Hooks/useAuth";
 import { toast } from "sonner";
