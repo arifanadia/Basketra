@@ -25,6 +25,8 @@ const getProducts = async (req, res) => {
         sortOption.price = order === 'asc' ? 1 : -1;
     } else if (sort === 'dateAdded') {
         sortOption.dateAdded = order === 'asc' ? 1 : -1;
+    } else {
+        sortOption.name = 1; 
     }
     try {
         const products = await Product.find(filter)

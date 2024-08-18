@@ -35,6 +35,7 @@ const Products = () => {
                         sort,
                         order,
                         ...filter,
+
                     },
                 });
                 setProducts(response.data.products);
@@ -60,6 +61,10 @@ const Products = () => {
         setSort(field);
         setOrder(direction);
     };
+    const handleResetFilters = () => {
+        setFilter({});
+        setCurrentPage(1); // Optionally reset to first page
+    };
 
     return (
         <section className="container mx-auto">
@@ -82,6 +87,12 @@ const Products = () => {
             <div className="lg:grid grid-cols-4 gap-8">
                 <div className='col-span-1 mt-12'>
                     <ApplyFilter products={products} setFilter={setFilter} />
+                    <button
+                        onClick={handleResetFilters}
+                        className="mt-4 p-2 bg-red-500 text-white rounded"
+                    >
+                        Reset Filters
+                    </button>
                 </div>
                 <div className='col-span-3 mt-12'>
                     {loading ? (
@@ -90,13 +101,15 @@ const Products = () => {
                         <>
                             <div className="mb-4">
                                 <label htmlFor="sort" className="mr-2">Sort By:</label>
-                                <select id="sort" onChange={handleSortChange} className="border p-2">
+                                <select id="sort" onChange={handleSortChange} value={`${sort}-${order}`} className="border p-2">
                                     <option value="price-asc">Price: Low to High</option>
                                     <option value="price-desc">Price: High to Low</option>
                                     <option value="dateAdded-asc">Date Added: Newest First</option>
                                     <option value="dateAdded-desc">Date Added: Oldest First</option>
                                 </select>
+
                             </div>
+
                             <MainProductsList products={products} />
                             <div className="pagination mt-6">
                                 <Pagination>
