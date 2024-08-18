@@ -10,17 +10,23 @@ import {
     XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ShoppingBagIcon, MagnifyingGlassIcon } from '@heroicons/react/20/solid'
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
+import { useSearch } from "@/Providers/SearchProvider"
 
 const Navbar = () => {
 
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const [searchQuery, setSearchQuery] = useState("");
+    const [search, setSearch] = useState("");
+    const { setSearchQuery } = useSearch();
+    const navigate = useNavigate();
 
     const handleSearch = (e) => {
         e.preventDefault();
-        console.log("Searching for:", searchQuery);
-        // Implement search functionality here
+        if (search.trim()) {
+            setSearchQuery(search.trim());
+            console.log('Search query:', search); // Log the search query
+            navigate('/products');
+        }
     };
 
     return (
@@ -43,8 +49,8 @@ const Navbar = () => {
                         <input
                             type="text"
                             placeholder="Search products..."
-                            value={searchQuery}
-                            onChange={(e) => setSearchQuery(e.target.value)}
+                            value={search}
+                            onChange={(e) => setSearch(e.target.value)}
                             className="w-full max-w-screen-sm px-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#074161] focus:border-transparent"
                         />
                         <Button type="submit" className="bg-[#074161] px-4 py-1 rounded-md text-white shadow-lg transition-all hover:scale-105">
@@ -57,8 +63,8 @@ const Navbar = () => {
                         <input
                             type="text"
                             placeholder="Search products..."
-                            value={searchQuery}
-                            onChange={(e) => setSearchQuery(e.target.value)}
+                            value={search}
+                            onChange={(e) => setSearch(e.target.value)}
                             className="w-full max-w-screen-sm px-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#074161] focus:border-transparent"
                         />
                         <Button type="submit" className="bg-[#074161] px-4 py-1 rounded-md text-white shadow-lg transition-all hover:scale-105">

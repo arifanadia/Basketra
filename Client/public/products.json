@@ -1,0 +1,396 @@
+[
+    {
+        "name": "Noise Cancelling Headphones",
+        "brand": "SoundMax",
+        "image": "https://i.ibb.co/C6knwrt/headphone1-1.webp",
+        "price": 99.99,
+        "category": "Electronics",
+        "dateAdded": "2024-07-15"
+    },
+    {
+        "name": "Premium Over-Ear Headphones",
+        "brand": "TechTime",
+        "image": "https://i.ibb.co/gVFcx2b/headphone3.jpg",
+        "price": 126.34,
+        "category": "Electronics",
+        "dateAdded": "2024-07-13"
+    },
+    {
+        "name": "Sports Wireless Earbuds",
+        "brand": "awei",
+        "image": "https://i.ibb.co/m9ZsRtv/headphone4.jpg",
+        "price": 99.99,
+        "category": "Electronics",
+        "dateAdded": "2024-07-11"
+    },
+    {
+        "name": "Bass Boost Headphones",
+        "brand": "JBL Tune",
+        "image": "https://i.ibb.co/gS5DqSX/headphone2.jpg",
+        "price": 105.99,
+        "category": "Electronics",
+        "dateAdded": "2024-07-17"
+    },
+    {
+        "name": "Compact Travel Headphones",
+        "brand": "PowerPro",
+        "image": "https://i.ibb.co/jGHsRPJ/headphone15.jpg",
+        "price": 80.99,
+        "category": "Electronics",
+        "dateAdded": "2024-07-12"
+    },
+    {
+        "name": "Hi-Fi Studio Headphones",
+        "brand": "VisionPlus",
+        "image": "https://i.ibb.co/XVVN2yp/headphone6.jpg",
+        "price": 99.99,
+        "category": "Electronics",
+        "dateAdded": "2024-07-15"
+    },
+    {
+        "name": "FitPro Smartwatch X",
+        "brand": "FitTech",
+        "image": "https://i.ibb.co/tcQ9B4j/633fedd50c6ce04230740566-smart-watch-for-a.jpg",
+        "price": 179.99,
+        "category": "Wearables",
+        "dateAdded": "2024-07-01"
+    },
+    {
+        "name": "PulsePro Smartwatch",
+        "brand": "HealthSync",
+        "image": "https://i.ibb.co/2n9MmV7/0583893-y-card-call-voice-chat-sos-gps-lbs-wifi.jpg",
+        "price": 189.99,
+        "category": "Wearables",
+        "dateAdded": "2024-07-05"
+    },
+    {
+        "name": "ActiveFit Watch 3",
+        "brand": "MoveWell",
+        "image": "https://i.ibb.co/f4JP61X/QCY-GS2-Smart-Watches-Black-4948.jpg",
+        "price": 209.99,
+        "category": "Wearables",
+        "dateAdded": "2024-07-10"
+    },
+    {
+        "name": "SportSync Watch",
+        "brand": "PulseFit",
+        "image": "https://i.ibb.co/WswPqs7/0380396-d18-wireless-bluetooth-smart-watch-13-inches-ip65-waterproof-sports-watch.jpg",
+        "price": 169.99,
+        "category": "Wearables",
+        "dateAdded": "2024-07-15"
+    },
+    {
+        "name": "ProFit Smartwatch 5",
+        "brand": "WearWell",
+        "image": "https://i.ibb.co/GRzFgXm/smartwatches-2048px-3x2-1.webp",
+        "price": 219.99,
+        "category": "Wearables",
+        "dateAdded": "2024-07-20"
+    },
+    {
+        "name": "VivoActive Watch",
+        "brand": "ActivePulse",
+        "image": "https://i.ibb.co/b7c4FPW/images-2.jpg",
+        "price": 229.99,
+        "category": "Wearables",
+        "dateAdded": "2024-07-25"
+    },
+    {
+        "name": "CoreFit Watch X",
+        "brand": "CoreTech",
+        "image": "https://i.ibb.co/1nFbRXD/images-3.jpg",
+        "price": 199.99,
+        "category": "Wearables",
+        "dateAdded": "2024-07-30"
+    },
+    {
+        "name": "Smart 4K LED TV",
+        "brand": "TechView",
+        "image": "https://i.ibb.co/0V6HrXn/dm9qefzptw9gep3e33p-Fu-K-1200-80.jpg",
+        "price": 749.99,
+        "category": "Home Entertainment",
+        "dateAdded": "2024-05-01"
+    },
+    {
+        "name": "Ultra HD LED TV",
+        "brand": "ElectroMax",
+        "image": "https://i.ibb.co/PDjJV3M/W43-D210-E11-UG-change-364x364.jpg",
+        "price": 899.99,
+        "category": "Home Entertainment",
+        "dateAdded": "2024-05-05"
+    },
+    {
+        "name": "CinemaVision 4K TV",
+        "brand": "VisionPro",
+        "image": "https://i.ibb.co/Q8jb2t9/Uj-QFk7-Qd-Y0-Xiwiu-R2-MBtt-Cd-K6o81-CBRWCDIk-Zi-Wc.jpg",
+        "price": 999.99,
+        "category": "Home Entertainment",
+        "dateAdded": "2024-05-10"
+    },
+    {
+        "name": "Quantum LED TV",
+        "brand": "ScreenMaster",
+        "image": "https://i.ibb.co/vdfCCdL/Xiaomi-MI-A2-43-inch-Smart-LED-TV.jpg",
+        "price": 849.99,
+        "category": "Home Entertainment",
+        "dateAdded": "2024-05-15"
+    },
+    {
+        "name": "Infinity Screen TV",
+        "brand": "EliteVision",
+        "image": "https://i.ibb.co/cCkcPJy/images-4.jpg",
+        "price": 1099.99,
+        "category": "Home Entertainment",
+        "dateAdded": "2024-05-20"
+    },
+    {
+        "name": "Classic Bluetooth Speaker",
+        "brand": "Marshall",
+        "image": "https://i.ibb.co/5n8jBDJ/1-AVStore-Marsha-Speaker-Front-Angled-View-Hero.webp",
+        "price": 99.99,
+        "category": "Audio",
+        "dateAdded": "2024-07-20"
+    },
+    {
+        "name": "Compact Wireless Speaker",
+        "brand": "Hoco",
+        "image": "https://i.ibb.co/R0Hsdxr/Hoco-HC25-Portable-Bluetooth-Speaker-1-600x600.jpg",
+        "price": 79.99,
+        "category": "Audio",
+        "dateAdded": "2024-07-22"
+    },
+    {
+        "name": "Travel-Friendly Speaker",
+        "brand": "JBL Tune",
+        "image": "https://i.ibb.co/44G6jXT/DSAQtq-ZRTn2v-Qbz-CCc-BBxbwab9aplc-NH0-UB73nn-L.jpg",
+        "price": 89.99,
+        "category": "Audio",
+        "dateAdded": "2024-07-23"
+    },
+    {
+        "name": "Outdoor Bluetooth Speaker",
+        "brand": "Walton",
+        "image": "https://i.ibb.co/rQHc0r5/walton-ps16-portable-bluetooth-speaker-blue.jpg",
+        "price": 65.99,
+        "category": "Audio",
+        "dateAdded": "2024-07-25"
+    },
+    {
+        "name": "Portable Party Speaker",
+        "brand": "JBL Tune",
+        "image": "https://i.ibb.co/dMpBBg2/006e310e0887216222a8c3d5e1e55eb8.jpg",
+        "price": 109.99,
+        "category": "Audio",
+        "dateAdded": "2024-07-27"
+    },
+    {
+        "name": "BoomBox 3 Speaker",
+        "brand": "JBL Tune",
+        "image": "https://i.ibb.co/L89M6QC/0549808-jbl-boombox-3-squad-portable-bluetooth-speaker.jpg",
+        "price": 149.99,
+        "category": "Audio",
+        "dateAdded": "2024-07-30"
+    },
+    {
+        "name": "Portable Sound Speaker",
+        "brand": "TronSmart",
+        "image": "https://i.ibb.co/LYQ0d7x/images-1.jpg",
+        "price": 59.99,
+        "category": "Audio",
+        "dateAdded": "2024-08-01"
+    },
+    {
+     
+        "name": "Ultra Bass Speaker",
+        "brand": "Boom Box",
+        "image": "https://i.ibb.co/bb1v5vc/81-Wh4-Fwisd-L-AC-UF1000-1000-QL80.jpg",
+        "price": 129.99,
+        "category": "Audio",
+        "dateAdded": "2024-08-03"
+    },
+        {
+            "name": "Smart LED Light",
+            "brand": "UltraSmile",
+            "image": "https://i.ibb.co/ZcBmzMY/633b517430ed413f68165e71-papablic-baby-sonic-electric-toothbrush.jpg",
+            "price": 29.99,
+            "category": "Smart Home",
+            "dateAdded": "2024-03-10"
+        },
+        {
+            "name": "Sonic Electric Toothbrush",
+            "brand": "UltraSmile",
+            "image": "https://example.com/images/toothbrush.jpg",
+            "price": 59.99,
+            "category": "Health & Personal Care",
+            "dateAdded": "2024-07-01"
+        },
+        {
+            "name": "Rechargeable Toothbrush",
+            "brand": "BrightSmile",
+            "image": "https://i.ibb.co/k410LW3/electric-toothbrush.webp",
+            "price": 49.99,
+            "category": "Health & Personal Care",
+            "dateAdded": "2024-07-10"
+        },
+        {
+            "name": "Digital Toothbrush",
+            "brand": "CarePlus",
+            "image": "https://i.ibb.co/j6YCjPV/512-V1-GCv-z-L-SL1000.jpg",
+            "price": 54.99,
+            "category": "Health & Personal Care",
+            "dateAdded": "2024-07-15"
+        },
+        {
+            "name": "Smart Toothbrush",
+            "brand": "CarePlus",
+            "image": "https://i.ibb.co/3md4Hrm/electric-toothbrushes.webp",
+            "price": 64.99,
+            "category": "Health & Personal Care",
+            "dateAdded": "2024-07-20"
+        },
+        {
+            "name": "Advanced Electric Toothbrush",
+            "brand": "BrightSmile",
+            "image": "https://i.ibb.co/Xtg1vzn/PEO-Group-Electric-Toothbrushes-tamara-staples-0627-13b1b99583954a0ba4ab0d8b99493d61.jpg",
+            "price": 79.99,
+            "category": "Health & Personal Care",
+            "dateAdded": "2024-07-25"
+        },
+    
+
+
+
+  
+    {
+        "name": "Espresso Machine",
+        "brand": "CafeMaster",
+        "image": "https://i.ibb.co/3sp2Lb1/Coffee-brewer-Banner-2.webp",
+        "price": 129.99,
+        "category": "Kitchen Appliances",
+        "dateAdded": "2024-08-05"
+    },
+    {
+        "name": "Drip Coffee Maker",
+        "brand": "BrewPro",
+        "image": "https://i.ibb.co/G2G1SBY/images-7.jpg",
+        "price": 89.99,
+        "category": "Kitchen Appliances",
+        "dateAdded": "2024-08-10"
+    },
+    {
+        "name": "Single-Serve Coffee Maker",
+        "brand": "CoffeePlus",
+        "image": "https://i.ibb.co/jym209M/wr-Uc-Qebqg9-HBi-WVY5-Ziz-S8.jpg",
+        "price": 69.99,
+        "category": "Kitchen Appliances",
+        "dateAdded": "2024-08-12"
+    },
+    {
+        "name": "French Press",
+        "brand": "BrewMaster",
+        "image": "https://i.ibb.co/dbKtfHs/imperial-espresso-coffee-maker-coffee-machine-15-bars-agaro-original-imahfxnu3dbwtzhf.webp",
+        "price": 49.99,
+        "category": "Kitchen Appliances",
+        "dateAdded": "2024-08-15"
+    },
+    {
+        "name": "Cold Brew Coffee Maker",
+        "brand": "BrewMaster",
+        "image": "https://i.ibb.co/MfgGRVn/images-6.jpg",
+        "price": 99.99,
+        "category": "Kitchen Appliances",
+        "dateAdded": "2024-08-20"
+    },
+    {
+        "name": "Moka Pot",
+        "brand": "EspressoWorks",
+        "image": "https://i.ibb.co/nPd0HKw/FAW-Cuisinart-Conical-Burr-DGB2-4-0902-Russell-Kilgore-jpg-d12678773f4c426592fcf6aff01653b8.jpg",
+        "price": 59.99,
+        "category": "Kitchen Appliances",
+        "dateAdded": "2024-08-22"
+    },
+        {
+            "name": "Galaxy S23 Ultra",
+            "brand": "Samsung",
+            "image": " https://i.ibb.co/rQPqngH/41jho-S7-Rd-RL-SL500.jpg",
+            "price": 1199.99,
+            "category": "Mobile Phones",
+            "dateAdded": "2024-08-15"
+        },
+  
+        {
+            "name": "iPhone 15 Pro",
+            "brand": "Apple",
+            "image": "https://i.ibb.co/zG0Bdcn/cnnu-best-tested-badge-template-2024-1.jpg",
+            "price": 999.99,
+            "category": "Mobile Phones",
+            "dateAdded": "2024-08-10"
+        },
+        {
+            "name": "Pixel 8 Pro",
+            "brand": "Google",
+            "image": "https://i.ibb.co/0cK4nwX/images-8.jpg",
+            "price": 899.99,
+            "category": "Mobile Phones",
+            "dateAdded": "2024-08-05"
+        },
+        {
+            "name": "OnePlus 11T",
+            "brand": "OnePlus",
+            "image": "https://i.ibb.co/h78kGf4/4171.webp",
+            "price": 749.99,
+            "category": "Mobile Phones",
+            "dateAdded": "2024-07-30"
+        },
+        {
+            "name": "Xiaomi Mi 13",
+            "brand": "Xiaomi",
+            "image": "https://i.ibb.co/KVd3nZN/share.webp",
+            "price": 699.99,
+            "category": "Mobile Phones",
+            "dateAdded": "2024-07-25"
+        },
+        {
+            "name": "Sony Xperia 1 IV",
+            "brand": "Sony",
+            "image": "https://i.ibb.co/bPD4LW1/images-5.jpg",
+            "price": 1099.99,
+            "category": "Mobile Phones",
+            "dateAdded": "2024-07-20"
+        },
+        {
+            "name": "Motorola Edge 40",
+            "brand": "Motorola",
+            "image": "https://i.ibb.co/0sHvBdZ/638309261503801187-1.jpg",
+            "price": 699.99,
+            "category": "Mobile Phones",
+            "dateAdded": "2024-07-15"
+        },
+        {
+            "name": "Oppo Find X6 Pro",
+            "brand": "Oppo",
+            "image": "https://i.ibb.co/VJ49wpF/galaxy-z-flip3-review-15-thumb.jpg",
+            "price": 1199.99,
+            "category": "Mobile Phones",
+            "dateAdded": "2024-07-10"
+        },
+        {
+            "name": "Asus ROG Phone 7",
+            "brand": "Asus",
+            "image": "https://i.ibb.co/2yLs9rP/shutterstock-1736005427212121212.webp",
+            "price": 999.99,
+            "category": "Mobile Phones",
+            "dateAdded": "2024-07-05"
+        },
+
+    
+    {
+        "name": "Instant Pot",
+        "brand": "CookEase",
+        "image": "https://example.com/images/instantpot.jpg",
+        "price": 89.99,
+        "category": "Kitchen Appliances",
+        "dateAdded": "2024-04-02"
+    }
+  
+]

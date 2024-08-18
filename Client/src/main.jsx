@@ -4,12 +4,15 @@ import App from './App.jsx'
 import './index.css'
 import AuthProvider from './Providers/AuthProvider.jsx'
 import { Toaster } from 'sonner'
+import { SearchProvider } from './Providers/SearchProvider.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <AuthProvider>
-      <App />
-      <Toaster closeButton />
+      <SearchProvider>
+        <App />
+        <Toaster closeButton />
+      </SearchProvider>
     </AuthProvider>
   </StrictMode>,
 )
