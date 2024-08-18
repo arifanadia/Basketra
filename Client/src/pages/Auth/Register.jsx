@@ -58,14 +58,14 @@ const Register = () => {
 
     return (
         <section className="flex flex-col min-h-screen items-center justify-center bg-gray-100">
-            <div className="flex items-center justify-center gap-4 mb-6">
+            <Link to={"/"} className="flex items-center justify-center gap-4 mb-6">
                 <img
                     src={basketra}
                     alt="Basketra logo"
                     className="size-16 mx-auto mb-4"
                 />
                 <h1 className="text-3xl text-[#074161] font-serif font-bold">Basketra</h1>
-            </div>
+            </Link>
 
             <Card className="mx-auto max-w-sm">
                 <CardHeader>

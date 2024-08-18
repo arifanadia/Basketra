@@ -33,7 +33,7 @@ const Navbar = () => {
         <header className="bg-white bg-opacity-20 ">
             <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
                 <div className="flex lg:flex-1 gap-8 items-center">
-                    <Link to="/" className="-m-1.5 p-1.5">
+                    <Link to="/products" className="-m-1.5 p-1.5">
                         <span className="sr-only">Basketra</span>
                         <div className="flex justify-center items-center gap-1">
                             <img
@@ -85,9 +85,6 @@ const Navbar = () => {
 
                 <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:gap-6">
                     <div className="lg:flex lg:gap-x-6">
-                        <Link to="/" className="text-base font-semibold leading-6 text-gray-900">
-                            Home
-                        </Link>
                         <Link to="/products" className="text-base font-semibold leading-6 text-gray-900">
                             Products
                         </Link>
@@ -138,9 +135,6 @@ const Navbar = () => {
                         <div className="-my-6 divide-y divide-gray-500/10">
                             <div className="space-y-2 py-6">
                                 <Link to="/" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                                    Home
-                                </Link>
-                                <Link to="/products" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                                     Products
                                 </Link>
                                 <Link to="/" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">

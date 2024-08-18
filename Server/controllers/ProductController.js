@@ -20,11 +20,12 @@ const getProducts = async (req, res) => {
             { category: { $regex: searchRegex } }
         ];
     }
-
     const sortOption = {};
-    if (sort === 'price') sortOption.price = order === 'asc' ? 1 : -1;
-    if (sort === 'dateAdded') sortOption.dateAdded = order === 'asc' ? 1 : -1;
-
+    if (sort === 'price') {
+        sortOption.price = order === 'asc' ? 1 : -1;
+    } else if (sort === 'dateAdded') {
+        sortOption.dateAdded = order === 'asc' ? 1 : -1;
+    }
     try {
         const products = await Product.find(filter)
             .sort(sortOption)

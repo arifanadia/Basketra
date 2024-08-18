@@ -55,6 +55,11 @@ const Products = () => {
             setCurrentPage(page);
         }
     };
+    const handleSortChange = (e) => {
+        const [field, direction] = e.target.value.split('-');
+        setSort(field);
+        setOrder(direction);
+    };
 
     return (
         <section className="container mx-auto">
@@ -76,13 +81,22 @@ const Products = () => {
 
             <div className="lg:grid grid-cols-4 gap-8">
                 <div className='col-span-1 mt-12'>
-                    <ApplyFilter setFilter={setFilter} />
+                    <ApplyFilter products={products} setFilter={setFilter} />
                 </div>
                 <div className='col-span-3 mt-12'>
                     {loading ? (
                         <p>Loading...</p>
                     ) : (
                         <>
+                            <div className="mb-4">
+                                <label htmlFor="sort" className="mr-2">Sort By:</label>
+                                <select id="sort" onChange={handleSortChange} className="border p-2">
+                                    <option value="price-asc">Price: Low to High</option>
+                                    <option value="price-desc">Price: High to Low</option>
+                                    <option value="dateAdded-asc">Date Added: Newest First</option>
+                                    <option value="dateAdded-desc">Date Added: Oldest First</option>
+                                </select>
+                            </div>
                             <MainProductsList products={products} />
                             <div className="pagination mt-6">
                                 <Pagination>
