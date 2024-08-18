@@ -25,7 +25,7 @@ const Navbar = () => {
         if (search.trim()) {
             setSearchQuery(search.trim());
             console.log('Search query:', search); // Log the search query
-            navigate('/products');
+            navigate('/');
         }
     };
 
