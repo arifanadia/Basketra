@@ -17,7 +17,7 @@ import useAxios from "@/Hooks/useAxios";
 import { SIGNUP_ROUTE } from "@/utils/constant";
 
 const Register = () => {
-    const { createUser } = useAuth();
+    const { createUser,signInWithGoogle } = useAuth();
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -45,16 +45,22 @@ const Register = () => {
             const { data } = await axiosPublic.post(SIGNUP_ROUTE, { firstName, lastName, email, password });
             console.log(data);
 
-            // Storing token in local storage or handling it as needed
-            localStorage.setItem('jwt', data.token);
-
             toast.success("Account created successfully");
-            navigate('/products');
+            navigate('/');
         } catch (err) {
             console.error("Sign-up error:", err);
             toast.error("Sign-up failed. Please try again.");
         }
     };
+
+    const handleGoogleLogin = () => {
+        signInWithGoogle()
+        .then((result) =>{
+         console.log(result);
+         navigate('/')
+         toast.success('google login successfully')
+      })
+     }
 
     return (
         <section className="flex flex-col min-h-screen items-center justify-center bg-gray-100">
@@ -119,7 +125,7 @@ const Register = () => {
                             <Button type="submit" className="w-full">
                                 Create an account
                             </Button>
-                            <Button variant="outline" className="w-full">
+                            <Button onClick={handleGoogleLogin} variant="outline" className="w-full">
                                 Sign up with Google
                             </Button>
                         </div>

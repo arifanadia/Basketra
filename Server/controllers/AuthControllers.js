@@ -15,11 +15,7 @@ const signUp = async (req, res, next) => {
             return res.status(400).send("Email and password is Required")
         }
         const user = await User.create({ firstName, lastName, email, password });
-        res.send('jwt', createToken(email, user.id), {
-            maxAge,
-            httpOnly: true,
-            sameSite: 'None',
-        });
+        const token = createToken(email, user.id);
 
         return res.status(201).json({
             user: {
@@ -33,5 +29,38 @@ const signUp = async (req, res, next) => {
         return res.status(500).send("Internal Server Error")
     }
 }
+const login = async (req, res) => {
+    try {
+        const { email, password } = req.body;
+        if (!email || !password) {
+            return res.status(400).send("Email and password are required");
+        }
 
-module.exports = { signUp };
+        // Find the user by email
+        const user = await User.findOne({ email });
+        if (!user) {
+            return res.status(401).send("Invalid email or password");
+        }
+
+        // Compare the provided password with the hashed password
+        const isMatch = await bcrypt.compare(password, user.password);
+        if (!isMatch) {
+            return res.status(401).send("Invalid email or password");
+        }
+
+        const token = createToken(email, user.id);
+
+        return res.status(200).json({
+            user: {
+                id: user.id,
+                email: user.email,
+            },
+            token,
+        });
+    } catch (err) {
+        console.error({ err });
+        return res.status(500).send("Internal Server Error");
+    }
+}
+
+module.exports = { signUp ,login };
